@@ -11,6 +11,7 @@ import 'day10_theme_package_textfieldAdvanced/password_text_field.dart';
 import 'day10_theme_package_textfieldAdvanced/theme_learn_view.dart';
 import 'day11_animasyonlar_extension_oop_imageAdvanced/animated_learn_view.dart';
 import 'day12_shared_preferences_secure_jwt_cache/shared_learn_cache.dart';
+import 'day13_sheet_alert_ios_android_dialog_generic/sheet_alert_dialog.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
-      home: const SharedLearn(),
+      home: const SheetAlertDialog(),
     );
   }
 }
